@@ -6,4 +6,5 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 
 1. The next number in the sequence is the sum of the previous two numbers.
+* Start with generating the full array of numbers lower than 4 million.
 2. We want the the sum of the even numbers.

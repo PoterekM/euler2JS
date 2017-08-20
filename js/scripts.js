@@ -13,4 +13,15 @@
   var total = add(lastValue, secondToLastValue);
   console.log(total);
   arrayOfSequence.push(total);
+  console.log(typeof(arrayOfSequence));
   console.log(arrayOfSequence);
+  console.log(typeof(arrayOfSequence));
+
+
+  for (var index = 1; index < 4000000; index += 1) {
+    if ((lastValue % 2) !== 0 && (secondToLastValue % 2 !== 0) ) {
+      var total = add(lastValue, secondToLastValue)
+    }
+  }
+  alert(total);
+  console.log(total);
