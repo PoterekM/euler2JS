@@ -22,15 +22,15 @@
 // console.log(arrayOfSequence);
 
 var previous = 0,
-  current = 1,
+  index = 1,
   sum = 0,
   temp;
 
-while (current < 4000000) {
-  // if (current % 2 === 0)
-    sum += current;
-    temp = current;
-    current = current + previous;
+while (index < 4000000) {
+  if (index % 2 === 0)
+    sum += index;
+    temp = index;
+    index = index + previous;
     previous = temp;
 }
 
